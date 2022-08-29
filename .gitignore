@@ -131,3 +131,6 @@ dmypy.json
 #test jupyter notebook files
 .ipynb
 Test
+
+#image
+img.jpg
