@@ -1,1 +1,1 @@
-web: gunicorn myWebApp.wsgi:application --log-file -
+web: python myWebApp/manage.py runserver 0.0.0.0:$PORT
