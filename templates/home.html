@@ -7,7 +7,11 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>This is my page </h1>
-    <h2> Home </h2>
+    <h1> Image upload page</h1>
+    <form action="imageprocess" method="post" enctype="multipart/form-data">
+        {% csrf_token %} 
+        <input id="image" type="file" name="image"/>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
